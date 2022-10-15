@@ -1,0 +1,34 @@
+{
+    "name": "Source",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "lsforblob",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Excel",
+        "typeProperties": {
+            "sheetName": "Sheet1",
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "Book1.xlsx",
+                "container": "sourcedata"
+            },
+            "firstRowAsHeader": true
+        },
+        "schema": [
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "String"
+            }
+        ]
+    }
+}
