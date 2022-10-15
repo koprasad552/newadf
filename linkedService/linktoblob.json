@@ -1,5 +1,5 @@
 {
-    "name": "lsforblob",
+    "name": "linktoblob",
     "type": "Microsoft.DataFactory/factories/linkedservices",
     "properties": {
         "annotations": [],
