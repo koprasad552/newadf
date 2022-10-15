@@ -2,7 +2,7 @@
     "name": "Source",
     "properties": {
         "linkedServiceName": {
-            "referenceName": "lsforblob",
+            "referenceName": "secondlink",
             "type": "LinkedServiceReference"
         },
         "annotations": [],
