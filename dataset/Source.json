@@ -2,7 +2,7 @@
     "name": "Source",
     "properties": {
         "linkedServiceName": {
-            "referenceName": "AzureBlobStorage1",
+            "referenceName": "thirdlink",
             "type": "LinkedServiceReference"
         },
         "annotations": [],
