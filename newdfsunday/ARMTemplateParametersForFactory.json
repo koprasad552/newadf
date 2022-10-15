@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "newdfsunday"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"secondlink_connectionString": {
+			"value": ""
+		},
+		"movefile_properties_typeProperties_scope": {
+			"value": "/subscriptions/de8c7287-8ca2-4629-a550-c573b970bf63/resourceGroups/terraform-demo/providers/Microsoft.Storage/storageAccounts/terraformetldemomukkup"
+		}
+	}
+}
