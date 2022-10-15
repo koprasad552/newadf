@@ -6,6 +6,11 @@
         "type": "AzureBlobStorage",
         "typeProperties": {
             "connectionString": "DefaultEndpointsProtocol=https;AccountName=terraformetldemomukkup;AccountKey=PqcUNeYjlPEglnMj4GDyAaD1w0W2GpZl4CbeslbwqrTqLO1+VH50wjDy9dDU4rFbi/3wwpUdp6qf+ASt4vQ9GQ==;EndpointSuffix=core.windows.net"
+        },
+        "connectVia": {
+            "referenceName": "AutoResolveIngrationRuntime",
+            "type": "IntegrationRuntimeReference"
         }
+
     }
 }
